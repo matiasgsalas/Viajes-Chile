@@ -12,35 +12,135 @@
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <!-- Fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">
-                <img src="/assets/img/viajes.svg" alt="">
-            </a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            
-          </div>
+<!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg bg-transparent text-dark p-2">
+            <div class="container">
+                <img src="/assets/img/viajes.svg"> <a class="navbar-brand" href="#">Viajes Chile</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Quiénes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Destacados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+<!-- fin Barra de navegación -->
+<!-- Header:Carrusel -->
+          <header>
+            <div id="carouselExampleControls" class="carousel slide pt-0 mt-0" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </header>
+<!-- fin Header:Carrusel -->
+<!-- Contenido -->
+<section id="Quienes-somos" class="container py-5 text-center">
+    <p class="h3 mb-5">QUIÉNES SOMOS</p>
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <i class="fa-solid fa-plane fa-2x my-3"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis eos unde vel ipsam voluptate. Enim autem saepe explicabo corporis iure est consequuntur quasi, aut molestias exercitationem illo officia eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis eos unde vel ipsam voluptate. Enim autem saepe explicabo corporis iure est consequuntur quasi, aut molestias exercitationem illo officia eum!</p>
         </div>
-      </nav>
+        <div class="col-12 col-md-4">
+            <i class="fa-solid fa-mountain fa-2x my-3"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis eos unde vel ipsam voluptate. Enim autem saepe explicabo corporis iure est consequuntur quasi, aut molestias exercitationem illo officia eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis eos unde vel ipsam voluptate. Enim autem saepe explicabo corporis iure est consequuntur quasi, aut molestias exercitationem illo officia eum!</p>
+        </div>
+        <div class="col-12 col-md-4">
+            <i class="fa-solid fa-route fa-2x my-3"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis eos unde vel ipsam voluptate. Enim autem saepe explicabo corporis iure est consequuntur quasi, aut molestias exercitationem illo officia eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis eos unde vel ipsam voluptate. Enim autem saepe explicabo corporis iure est consequuntur quasi, aut molestias exercitationem illo officia eum!</p>
+        </div>
+    </div>
+</section>
+<section id="Destacados" class="container py-5 text-center">
+    <p class="h3 mb-5">DESTACADOS</p>
+    <div class="row">
+        <div class="col-12 col-md-3">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-md-3">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-md-3">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-md-3">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<section id="Formulario" class="container py-5">
+    <p class="h3 mb-5 text-center">Contáctanos</p>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+      </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput2" class="form-label">Asunto</label>
+        <input type="subject" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Deja tu mensaje aquí..."></textarea>
+      </div>
+</section>
+
+
+
 
     <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

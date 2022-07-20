@@ -1,0 +1,25 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar img{
+    width: 44px;
+}
+
+.carousel-inner {
+    height: 650px;
+    background-size: cover;
+}   
+
+/*.container {
+    background-color: #fff;
+}
+*/
+
+#Quienes-somos i{
+    color: #00caf5;
+}
+
+.card-body {
+    background-color: #00caf5;
+}   
