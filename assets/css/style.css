@@ -2,6 +2,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.navbar{
+    background-color: #00caf5;
+}
+
 .navbar img{
     width: 44px;
 }
@@ -16,14 +20,32 @@
 }
 */
 
+/* Quiénes-somos */
 #Quienes-somos i{
     color: #00caf5;
 }
 
-.card-body {
-    background-color: #00caf5;
+#Quienes-somos{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
 }
 
-.body {
+.card-body {
+    background-color: #00caf5;
+    color: #fff;
+    width: 100%;
+}
+/* Destacados */
+#Destacados {
     background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+
+/* Contacto */
+#Contacto{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
 }
