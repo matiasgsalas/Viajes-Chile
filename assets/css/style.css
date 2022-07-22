@@ -14,6 +14,7 @@
 .carousel-inner {
     height: 650px;
     background-size: cover;
+    background-color: #000;
 }   
 
 /*.container {
@@ -21,7 +22,7 @@
 }
 */
 
-/* Quiénes-somos */
+/* Quiénes-somos // Contenido */
 #Quienes-somos i{
     color: #00caf5;
 }
@@ -37,15 +38,23 @@
     color: #fff;
     width: 100%;
 }
-/* Destacados */
+/* Destacados // Cards */
+
 #Destacados {
     background-color: #000;
     color: #fff;
     width: 100%;
 }
 
-/* Contacto */
+/* Contacto // Formulario de contacto */
 #Contacto{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+
+/* Footer */
+#Footer{
     background-color: #000;
     color: #fff;
     width: 100%;
